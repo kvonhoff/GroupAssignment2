@@ -14,12 +14,12 @@
 				<div class = "slideout-menu">
 				<h3>Menu <a href = "#" class = "slideout-menu-toggle">&times;</a></h3>
 					<ul>
-						<li><a href = "index.php" data-role = "button">Home <i class="fa fa-angle-right"></i></a></li>
-						<li><a href = "about.php" data-role = "button">About  <i class="fa fa-angle-right"></i></a></li>
-						<li><a href = "membership.php" data-role = "button">Memberships <i class="fa fa-angle-right"></i></a></li>
-						<li><a href = "bookshop.php" data-role = "button">Bookshop <i class="fa fa-angle-right"></i></a></li>
-						<li><a href = "map.php" data-role = "button">Map <i class="fa fa-angle-right"></i></a></li>
-						<li><a href = "#contactpage" data-rel = "dialog">Contact Us <i class = "fa fa-angle-right"></i></a></li>
+						<li><a href = "index.php">Home <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "about.php">About  <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "membership.php">Memberships <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "bookshop.php">Bookshop <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "map.php">Map <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "#contactpage">Contact Us <i class = "fa fa-angle-right"></i></a></li>
 					</ul>
 				</div>
 				<a href="#" class="slideout-menu-toggle"><i class="fa fa-bars"></i> Toggle Menu</a>
