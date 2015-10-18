@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<title>DUSA-U</title>
-		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.css" />
+		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.min.css" />
 		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<link rel = "stylesheet" type = "text/css" a href = "css/style.css" />
@@ -18,9 +18,10 @@
 					<ul>
 						<li><a href = "index.php">Home <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "about.php">About  <i class="fa fa-angle-right"></i></a></li>
-						<li><a href = "membership.php">Memberships <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "membership.html">Memberships <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "bookshop.php">Bookshop <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "map.php">Map <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "developers.php">Developers <i class="fa fa-angle-right"></i></a></li>					
 						<li><a href = "#contactpage" data-rel = "dialog">Contact Us <i class = "fa fa-angle-right"></i></a></li>
 					</ul>
 				</div>
@@ -28,10 +29,16 @@
 				<h2>DUSA-U</h2>
 			</div>
 			<div data-role = "content">
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-	
-				<br />The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+				<p><b><h2 align = "center">About</h2></b></p>
+				<p>As a DUSA-U representative, your voice is always heard by your fellow students. By becoming a representative you can:</p>
+				<h2 class="wht_header">PLAY SPORT!</h2>
+				<p class="p_indent">DUSA-U’s sporting team known as the ‘Dragons’, provide sporting opportunities to students who wish to represent their fellow DUSA-U members at a state, national or international level.</p>
+					
+				<h2 class="wht_header">HELP OUT!</h2>
+				<p class="p_indent">As a DUSA-U representative, you have to option to help out fellow DUSA-U members. So get out there and try new things, meet new people and gain professional experience to help you finish your degree.</p>
+					
+				<h2 class="wht_header">ADDED BENEFITS!</h2>
+				<p class="p_indent">As an online or local student you will have full coverage of what is going on at Deakin at all times. You will also be provided with free legal advice if you ever need help. These added benefits are free to all members.</p>
 				<script type="text/javascript">
 				$(document).ready(function () {
 					$('.slideout-menu-toggle').on('click', function(event){
@@ -58,7 +65,7 @@
 				</script>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 			
 			<div data-role  = "page" id = "contactpage" name = "contactpage">
@@ -81,7 +88,7 @@
 				</form>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 		</div>

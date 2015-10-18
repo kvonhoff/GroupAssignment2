@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<title>DUSA-U</title>
-		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.css" />
+		<meta name = "viewport" content = "width=devide-width, initial-scale = 1"/>
+		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.min.css" />
 		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<link rel = "stylesheet" type = "text/css" a href = "css/style.css" />
-		<meta name = "viewport" content = "width=devide-width, initial-scale = 1"/>
 	</head>
 	<body>
 		<div data-role  = "page" id = "bookshoppage" name = "bookshoppage" data-theme = "d">
@@ -18,7 +18,7 @@
 					<ul>
 						<li><a href = "index.php">Home <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "about.php">About  <i class="fa fa-angle-right"></i></a></li>
-						<li><a href = "membership.php">Memberships <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "membership.html">Memberships <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "bookshop.php">Bookshop <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "map.php">Map <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "#contactpage" data-rel = "dialog">Contact Us <i class = "fa fa-angle-right"></i></a></li>
@@ -27,9 +27,8 @@
 				<a href="#" class="slideout-menu-toggle"><i class="fa fa-bars"></i> Toggle Menu</a>
 				<h2>DUSA-U</h2>
 			</div>
-			<div data-role = "content">
+			<div data-role = "content" background = "red">
 				<p ><b><h2 align = "center">Bookshop</h2></b></p>
-				<p align = "center"><b>Search</b></p>
 				<form method = "post" action = "bookshop.php">
 					<input type = "text"name = "unit_code"/>
 					<input type = "submit" value = "Search" />
@@ -71,14 +70,7 @@
 						OCIExecute($stmt);
 				?>
 				<table>
-					<tr>
-						<td>IBSN</td>
-						<td>Title</td>
-						<td>Author</td>
-						<td>Publisher</td>
-						<td>Year</td>
-						<td>Price</td>
-					</tr>
+					
 					<?php
 						while(OCIFetch($stmt))
 						{
@@ -156,7 +148,7 @@
 			</div>
 			
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 		
@@ -180,7 +172,7 @@
 				</form>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 	</body>

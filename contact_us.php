@@ -1,7 +1,7 @@
 <?php
 	if(isset($_POST['email'])) { 
     // CHANGE THE TWO LINES BELOW
-		$email_to = "tdenning@deakin.edu.au";
+		$email_to = "tom.luan@deakin.edu.au";
      
 		$email_subject = "Contact Us Form!";
      
@@ -74,28 +74,63 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<title>DUSA-U</title>
-		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.css" />
+		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.min.css" />
 		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<link rel = "stylesheet" type = "text/css" a href = "css/style.css" />
 		<meta name = "viewport" content = "width=devide-width, initial-scale = 1"/>		
 	</head>
 	<body>
-		<div data-role = "page" id = "thankyoupage" data-theme = "d">
-			<div data-role = "header">
-				<h1>Thank you!</h1>
+		<div data-role = "header">
+				<div class = "slideout-menu">
+				<h3>Menu <a href = "#" class = "slideout-menu-toggle">&times;</a></h3>
+					<ul>
+						<li><a href = "index.php">Home <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "about.php">About  <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "membership.html">Memberships <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "bookshop.php">Bookshop <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "map.php">Map <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "developers.php">Developers <i class="fa fa-angle-right"></i></a></li>					
+						<li><a href = "#contactpage">Contact Us <i class = "fa fa-angle-right"></i></a></li>
+					</ul>
+				</div>
+				<a href="#" class="slideout-menu-toggle"><i class="fa fa-bars"></i> Toggle Menu</a>
+				<h2>DUSA-U</h2>
 			</div>
 			<div data-role = "content" class = "content">
 				<h1>Thank you!</h1>
 				<p>Thank you for contacting us.<br />
 				We will get back to you as soon as possible.<br />
-				Please click <a href = "index.php">here</a> to go back to the home page.
+				<script type="text/javascript">
+					$(document).ready(function () {
+						$('.slideout-menu-toggle').on('click', function(event){
+							event.preventDefault();
+							// create menu variables
+							var slideoutMenu = $('.slideout-menu');
+							var slideoutMenuWidth = $('.slideout-menu').width();
+							
+							// toggle open class
+							slideoutMenu.toggleClass("open");
+							
+							// slide menu
+							if (slideoutMenu.hasClass("open")) {
+								slideoutMenu.animate({
+									left: "0px"
+								});	
+							} else {
+								slideoutMenu.animate({
+									left: -slideoutMenuWidth
+								}, 250);	
+							}
+						});
+					});
+				</script>
 			</div>
 			<div data-role = "footer">
-				This is the footer.
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 	</body>

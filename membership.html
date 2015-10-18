@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<title>DUSA-U</title>
-		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.css" />
+		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.min.css" />
 		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<link rel = "stylesheet" type = "text/css" a href = "css/style.css" />
@@ -18,9 +18,10 @@
 					<ul>
 						<li><a href = "index.php">Home <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "about.php">About  <i class="fa fa-angle-right"></i></a></li>
-						<li><a href = "membership.php">Memberships <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "membership.html">Memberships <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "bookshop.php">Bookshop <i class="fa fa-angle-right"></i></a></li>
 						<li><a href = "map.php">Map <i class="fa fa-angle-right"></i></a></li>
+						<li><a href = "developers.php">Developers <i class="fa fa-angle-right"></i></a></li>					
 						<li><a href = "#contactpage" data-rel = "dialog">Contact Us <i class = "fa fa-angle-right"></i></a></li>
 					</ul>
 				</div>
@@ -28,11 +29,12 @@
 				<h2>DUSA-U</h2>
 			</div>
 			<div data-role = "content">
-				<ul data-role = "listview">
-					<li data-role = "button"><a href = "#silvermembership" data-rel = "dialog">Silver Membership</a></li>
-					<li data-role = "button"><a href = "#goldmembership" data-rel = "dialog">Gold Membership</a></li>
-					<li data-role = "button"><a href = "#platinummembership" data-rel = "dialog">Platinum Membership</a></li>
-					<li data-role = "button"><a href = "#diamondmembership" data-rel = "dialog">Diamond Membership</a></li>
+				<p><b><h2 align = "center">Membership</h2></b></p>
+				<p>
+				<a href = "#silvermembership" data-rel = "dialog" data-role = "button">Silver Membership</a></li>
+				<a href = "#goldmembership" data-rel = "dialog" data-role = "button">Gold Membership</a></li>
+				<a href = "#platinummembership" data-rel = "dialog" data-role = "button">Platinum Membership</a></li>
+				<a href = "#diamondmembership" data-rel = "dialog" data-role = "button">Diamond Membership</a></li>
 				<script type="text/javascript">
 					$(document).ready(function () {
 						$('.slideout-menu-toggle').on('click', function(event){
@@ -59,7 +61,7 @@
 				</script>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 		
@@ -83,7 +85,7 @@
 				</form>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 		
@@ -92,10 +94,23 @@
 				<h2>Silver Membership</h2>
 			</div>
 			<div data-role = "content">
-						
+				Price: $20.00
+				<div data-role = "collapsible">
+					<h1>Benefits:</h1>
+					<p>
+						<ul style = "list-style-type:disc">
+							<li>DUSA-U Wall Planner</li>
+							<li>DUSA-U Free Food Days (On-Campus)</li>
+							<li>Discount to DUSA-U Clubs/Societies</li>
+							<li>Access to DUSA-U Volunteer & Student Representative Programs</li>
+							<li>Discount on DUSA events and short courses</li>
+							<li>Discount on Stationary at the DUSA-U Bookshop (10%)</li>
+						</ul>
+					</p>
+				</div>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 		
@@ -104,10 +119,26 @@
 				<h2>Gold Membership</h2>
 			</div>
 			<div data-role = "content">
-						
+				Price: $50.00
+				<div data-role = "collapsible">
+					<h1>Benefits:</h1>
+					<p>
+						<ul style = "list-style-type:disc">
+							<li>DUSA-U Wall Planner</li>
+							<li>DUSA-U Free Food Days (On-Campus)</li>
+							<li>Discount to DUSA-U Clubs/Societies</li>
+							<li>Access to DUSA-U Volunteer & Student Representative Programs</li>
+							<li>Discount on DUSA events and short courses</li>
+							<li>Discount on Stationary at the DUSA-U Bookshop (10%)</li>
+							<li>DUSA-U Sticky Flag</li>
+							<li>Dusa-U 8GB Wristband USB</li>
+							<li>Dusa-U Satchel</li>
+						</ul>
+					</p>
+				</div>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 		
@@ -116,10 +147,29 @@
 				<h2>Platinum Membership</h2>
 			</div>
 			<div data-role = "content">
-						
+				Price: $75.00
+				<div data-role = "collapsible">
+					<h1>Benefits:</h1>
+					<p>
+					<ul style = "list-style-type:disc">
+						<li>DUSA-U Wall Planner</li>
+						<li>DUSA-U Free Food Days (On-Campus)</li>
+						<li>Discount to DUSA-U Clubs/Societies</li>
+						<li>Access to DUSA-U Volunteer & Student Representative Programs</li>
+						<li>Discount on DUSA events and short courses</li>
+						<li>Discount on Stationary at the DUSA-U Bookshop (20%)</li>
+						<li>DUSA-U Sticky Flag</li>
+						<li>Dusa-U 8GB Wristband USB</li>
+						<li>Dusa-U Satchel</li>
+						<li>Discount on University Games</li>
+						<li>DUSA-U Pen Pack</li>
+						<li>DUSA-U Membership Hoodie</li>
+					</ul>
+					</p>
+				</div>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 		
@@ -128,10 +178,30 @@
 				<h2>Diamond Membership</h2>
 			</div>
 			<div data-role = "content">
-						
+				Price: $500,000
+				<div data-role = "collapsible">
+					<h1>Benefits:</h1>
+					<p>
+					<ul style = "list-style-type:disc">
+						<li>DUSA-U Wall Planner</li>
+						<li>DUSA-U Free Food Days (On-Campus)</li>
+						<li>Discount to DUSA-U Clubs/Societies</li>
+						<li>Access to DUSA-U Volunteer & Student Representative Programs</li>
+						<li>Discount on DUSA events and short courses</li>
+						<li>Discount on Stationary at the DUSA-U Bookshop (20%)</li>
+						<li>DUSA-U Sticky Flag</li>
+						<li>Dusa-U 8GB Wristband USB</li>
+						<li>Dusa-U Satchel</li>
+						<li>Discount on University Games</li>
+						<li>DUSA-U Pen Pack</li>
+						<li>DUSA-U Membership Hoodie</li>
+						<li>DUSA-U Themed Lamborghini Aventador LP 700-4</li>
+					</ul>
+					</p>
+				</div>
 			</div>
 			<div data-role = "footer">
-				<h2>This is the footer</h2>
+				<h1><a href = "developers.php">&copy; DUSA-U Inc.</a></h1>
 			</div>
 		</div>
 	</body>

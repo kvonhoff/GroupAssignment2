@@ -69,3 +69,25 @@ top: 15px;
 right: 10px;
 opacity: .5;
 }
+
+div.cen-text {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.ui-page { 
+	background: red;
+}
+
+div#header_bg {
+	background: black;
+}
+
+h2.wht_header {
+	color: white;
+}
+
+p.p_indent {
+    text-indent: 50px;
+}
