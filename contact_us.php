@@ -76,13 +76,15 @@
 	<head>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<title>DUSA-U</title>
+		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<link rel = "stylesheet" type = "text/css" a href = "css/style.css" />
 		<meta name = "viewport" content = "width=devide-width, initial-scale = 1"/>		
 	</head>
 	<body>
-		<div data-role = "page" id = "thankyoupage">
+		<div data-role = "page" id = "thankyoupage" data-theme = "d">
 			<div data-role = "header">
 				<h1>Thank you!</h1>
 			</div>

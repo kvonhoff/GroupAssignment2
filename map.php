@@ -3,13 +3,15 @@
 	<head>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<title>DUSA-U</title>
+		<link rel="stylesheet" href="css/themes/GroupAssignment2Theme.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<link rel = "stylesheet" type = "text/css" a href = "css/style.css" />
 		<meta name = "viewport" content = "width=devide-width, initial-scale = 1"/>
 	</head>
 	<body>
-		<div data-role  = "page" id = "mappage" name = "mappage">
+		<div data-role  = "page" id = "mappage" name = "mappage" data-theme = "d">
 			<div data-role = "header">
 				<div class = "slideout-menu">
 				<h3>Menu <a href = "#" class = "slideout-menu-toggle">&times;</a></h3>
@@ -57,7 +59,7 @@
 			</div>
 		</div>
 		
-		<div data-role  = "page" id = "contactpage" name = "contactpage">
+		<div data-role  = "page" id = "contactpage" name = "contactpage" data-theme = "d">
 			<div data-role = "header">
 				<h2>Contact Us</h2>
 			</div>
