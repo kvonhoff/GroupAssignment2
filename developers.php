@@ -33,7 +33,7 @@
 					<h1>Matthew Antonuccio</h1>
 					<p>
 						He is an IT student From Deakin University completing his Bachelor of IT degree.<br />
-						He works as a shift manager at NQR Mornington<br />
+						He works as a shift manager at NQR Mornington.<br />
 						His hobbies include<br />
 						<ul style = "list-style-type:disc">
 							<li>Gaming</li>
@@ -49,7 +49,7 @@
 					<h1>Kryal Von Hoffman Brown</h1>
 					<p>	
 						He is an IT student From Deakin University completing his Bachelor of IT degree.<br />
-						He currently works as a bakery assistant at Coles Westfield Knox<br />
+						He currently works as a bakery assistant at Coles Westfield Knox.<br />
 						His hobbies include<br />
 						<ul style = "list-style-type:disc">
 							<li>Gaming</li>
@@ -72,7 +72,7 @@
 						<li>Coding</li>
 						<li>Anything IT related</li>
 					</ul>
-					<p>If you wish to get into contact with him, please click <a href = "mailto:tdenning@deakin.edu.au">here</a>.</p>
+					<p>If you wish to get into contact with him, please click <a href = "mailto:tdenning@deakin.edu.au">here</a>.
 					</p>
 				</div>
 				
